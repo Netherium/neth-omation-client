@@ -1,7 +1,7 @@
 {
   "name": "neth-omation-client",
   "version": "1.0.0",
-  "description": "A frontend for the raspberry pi automation server (https://github.com/Netherium/neth-omation-server) that handles remotely GPIO control. Made with Angular 6, Socket.io and Wired-Elements",
+  "description": "A frontend for the raspberry pi automation server (https://github.com/Netherium/neth-omation-server) to remotely control GPIO. Made with Angular 6, Socket.io and Wired-Elements",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host=192.168.0.10",
