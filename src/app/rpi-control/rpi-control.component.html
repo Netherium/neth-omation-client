@@ -1,0 +1,24 @@
+<wired-card elevation="2" *ngIf="temperature && temperature.status">
+  <h3>Temperature</h3>
+  <p>{{temperature?.status}} Celcius</p>
+</wired-card>
+<wired-card elevation="2">
+  <h3>Control Led</h3>
+  <wired-checkbox *ngIf="led" text="Led" [checked]="led?.status" (change)="changeLed()"></wired-checkbox>
+</wired-card>
+<wired-card elevation="2">
+  <h3>Control Laser</h3>
+  <wired-checkbox *ngIf="laser" text="Laser" [checked]="laser?.status" (change)="changeLaser()"></wired-checkbox>
+</wired-card>
+<wired-card>
+  <h3>Control Led</h3>
+  <!--<wired-slider #rgbRedField *ngIf="led" class="red" [checked]="led?.status" (change)="changeLed()" min="0" max="1"></wired-slider>-->
+  <wired-slider *ngIf="rgb" class="red" [(value)]="rgb.red" (change)="changeRGB({red: $event.target.value, green: rgb.green, blue: rgb.blue})" min="0" max="255"></wired-slider>
+  <wired-slider *ngIf="rgb" class="green" [(value)]="rgb.green" (change)="changeRGB({red: rgb.red, green: $event.target.value, blue: rgb.blue})" min="0" max="255"></wired-slider>
+  <wired-slider *ngIf="rgb" class="blue" [value]="rgb.blue" (change)="changeRGB({red: rgb.red, green: rgb.green, blue: $event.target.value})" min="0" max="255"></wired-slider>
+  <span *ngIf="rgb">
+        R:{{rgb.red}}
+        G:{{rgb.green}}
+        B:{{rgb.blue}}
+    </span>
+</wired-card>

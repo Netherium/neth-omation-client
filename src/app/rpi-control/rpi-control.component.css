@@ -1,0 +1,24 @@
+wired-card{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+wired-slider{
+    width: 100%;
+    padding: 5px;
+}
+.red {
+    --wired-slider-knob-color: red;
+    --wired-slider-knob-zero-color: red;
+}
+
+.green{
+    --wired-slider-knob-color: green;
+    --wired-slider-knob-zero-color: green;
+}
+
+.blue{
+    --wired-slider-knob-color: blue;
+    --wired-slider-knob-zero-color: blue;
+}
