@@ -2,7 +2,7 @@
 A frontend for the raspberry pi [automation server](https://github.com/Netherium/neth-omation-server) that handles remotely GPIO control.
 Made with [Angular 6](https://github.com/angular/angular), [Socket.io](https://github.com/socketio/socket.io) and [Wired-Elements](https://github.com/wiredjs/wired-elements)
 
-<img src="https://raw.githubusercontent.com/Netherium/neth-omation-client/master/images/preview.png">
+<img src="https://raw.githubusercontent.com/Netherium/neth-omation-client/master/images/preview.gif">
 
 ## Quick start
 1. Clone this repo: `git clone https://github.com/Netherium/neth-omation-client.git`

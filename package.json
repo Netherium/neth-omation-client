@@ -4,7 +4,7 @@
   "description": "A frontend for the raspberry pi automation server (https://github.com/Netherium/neth-omation-server) that handles remotely GPIO control. Made with Angular 6, Socket.io and Wired-Elements",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host=127.0.0.1",
+    "start": "ng serve --host=192.168.0.10",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
