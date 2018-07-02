@@ -1,0 +1,10 @@
+wired-card {
+    margin: 0 auto 10px;
+    width: 90%;
+    position: relative;
+    background: slategrey;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
